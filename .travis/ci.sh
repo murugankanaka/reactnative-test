@@ -33,7 +33,7 @@ npm pack
 ###################
 # INSTALL         #
 ###################
-cd example || exit
+#cd example || exit
 
 rm -rf node_modules && npm install
 
