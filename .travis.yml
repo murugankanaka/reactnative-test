@@ -28,6 +28,5 @@ before_install:
   - chmod +x ./android/gradlew
 install:
   - npm install
-  - npm i @react-native-community/cli-platform-android
 script:
   - cd android && ./gradlew clean
