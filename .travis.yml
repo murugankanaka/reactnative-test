@@ -30,4 +30,4 @@ install:
   - npm install
   - npm i @react-native-community/cli-platform-android
 script:
-  - cd android && ./gradlew clean
+  - cd android && ./gradlew assembleRelease
