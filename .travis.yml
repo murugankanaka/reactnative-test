@@ -4,7 +4,7 @@ matrix:
       node_js:
         - "12"
       script: 
-        - chomod +x travis/ci_node.sh 
+        - chmod +x travis/ci_node.sh 
         - .travis/ci_node.sh
 
     - os: osx
@@ -13,7 +13,7 @@ matrix:
       env:
         - JOB_NAME=IOS
       script: 
-        - chomod +x .travis/ci.sh
+        - chmod +x .travis/ci.sh
         - .travis/ci.sh
 
     - os: linux
@@ -32,5 +32,5 @@ matrix:
       env:
         - JOB_NAME=ANDROID
       script:
-        - chomod +x .travis/ci.sh
+        - chmod +x .travis/ci.sh
         - .travis/ci.sh
