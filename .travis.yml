@@ -4,7 +4,7 @@ matrix:
       node_js:
         - "12"
       script: 
-        - chmod +x travis/ci_node.sh 
+        - chmod +x .travis/ci_node.sh 
         - .travis/ci_node.sh
 
     - os: osx
