@@ -26,6 +26,8 @@ licenses:
 before_install:
   - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
   - sudo apt-get install nodejs
+  - nodejs -v
+  - nvm install 8
   - chmod +x ./android/gradlew
 install:
   - npm install
