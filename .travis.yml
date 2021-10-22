@@ -25,6 +25,8 @@ licenses:
   - google-gdk-license-.+
 before_install:
   - nvm install 12
+  - yes | $ANDROID_HOME/tools/bin/sdkmanager "platforms;android-30"
+  - yes | $ANDROID_HOME/tools/bin/sdkmanager "build-tools;30.0.2"
   - chmod +x ./android/gradlew
 install:
   - npm install
